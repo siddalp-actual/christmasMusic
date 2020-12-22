@@ -18,9 +18,9 @@ soprano = \relative c' {
     g4 e8 e8.( dis16) e8 |   fis4. b,4 e8 |
     g4 a8 b8.( c16) b8 | a4 fis8 d8.( e16) fis8 |
     g8.( fis16) e8 dis8.( cis16) dis8 | e4. e4. \bar "||"
-    d'4. d8.( c16) b8 | a4 fis8 d8.( e16) fis8 |
+    d'4. d8.( cis16) b8 | a4 fis8 d8.( e16) fis8 |
     g4 e8 e8.( dis16) e8 | fis4 dis8 b4. |
-    d'4. d8.( c16) b8 | a4 fis8 d8.( e16) fis8 |
+    d'4. d8.( cis16) b8 | a4 fis8 d8.( e16) fis8 |
     g8.( fis16) e8 dis8.( cis16) dis8 | e4. e4 \bar "|."
     }
 
