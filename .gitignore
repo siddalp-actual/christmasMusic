@@ -3,4 +3,7 @@
 *.midi
 *.mid
 *.log
+*.wav
+*.mp3
+*.aup
 *~
