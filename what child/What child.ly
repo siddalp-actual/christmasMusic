@@ -87,7 +87,7 @@ pianoupper = \relative c'' {
     \clef treble
     \timeAndKey
     %\partcombine
-    <<  \new Voice { \voiceOne \soprano }
+    <<  \new Voice = "sopranovoice" { \voiceOne \soprano }
         \new Voice { \voiceTwo \alto  }
         \format
     >>
@@ -192,9 +192,9 @@ pianolower = {
             %\staffName "Piano"
             \repeat volta 3 \new Staff \tempo 8 = 130 \pianoupper
             \repeat volta 3 \new Staff \pianolower
-            %\new Lyrics \lyricsto "sopranovoice" \vOne
-            %\new Lyrics \lyricsto "sopranovoice" \vTwo
-            %\new Lyrics \lyricsto "sopranovoice" \vThree
+            \new Lyrics \lyricsto "sopranovoice" \vOne
+            \new Lyrics \lyricsto "sopranovoice" \vTwo
+            \new Lyrics \lyricsto "sopranovoice" \vThree
         >>
         \layout {}
         \midi {
